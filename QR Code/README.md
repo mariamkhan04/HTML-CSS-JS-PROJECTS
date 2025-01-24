@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![site-view](image.png)
 
 ### Links
-
-
+- Solution URL: [QR code Solution - GitHub Repo](https://github.com/mariamkhan04/HTML---CSS-Projects.git)
+- Live Site URL: [Live Site Url](https://01qrcode.netlify.app/)
 
 ## My process
 
@@ -49,6 +49,7 @@ In the future, I plan to explore more about:
 ### Useful resources
 
 -[MDN Web Docs](https://developer.mozilla.org/en-US/) - This is my go-to reference for understanding HTML and CSS properties.
+
 -[Google Fonts](https://fonts.google.com/) -  Helped me easily import and use the "Outfit" font family.
 
 ## Author
