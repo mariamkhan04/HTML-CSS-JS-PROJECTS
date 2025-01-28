@@ -99,3 +99,10 @@ img:hover{
         border-radius: 0.5rem;
     }
 }
+@media (max-width: 380px) {
+    #msg{
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        border-radius: 0.5rem;
+    }
+}
