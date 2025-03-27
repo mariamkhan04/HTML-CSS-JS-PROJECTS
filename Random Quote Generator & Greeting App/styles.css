@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-btn-color : #3aafa9;
+    --bg-btn-color-hover :#2e6da4;
+    --text-element-size: 1.5rem;
+    --text-elem-size-secondary: 1rem;
+}
+
+body{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #17252a;
+    color: #feffff;
+}
+
+.headings{
+    margin: 2rem;
+}
+
+#greet-btn{
+    background-color: var(--bg-btn-color);
+    font-size: var(--text-element-size);
+    color: #feffff;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+#greet-btn:hover{
+    background-color: var(--bg-btn-color-hover);
+    font-size: 1.65rem;
+}
+
+.quote-container{
+    background-color: #3aafa9;
+    max-width: 18rem; 
+    padding: 2rem; 
+    border-radius: 1rem; 
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: var(--text-elem-size-secondary);
+    box-shadow: 2px 2px 5px #feffff;
+}
+#quote-btn{
+    background-color: #17252a;
+    font-size: var(--text-elem-size-secondary);
+    color: #feffff;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+#quote-btn:hover{
+    background-color: #2e6da4;
+}
+
+@media(max-width: 320px){
+    .headings{
+        margin: 1rem;
+    }
+    .quote-container{
+        max-width: 15rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    #greet-btn{
+        font-size: var(--text-elem-size-secondary);
+    }
+    #greet-btn:hover{
+        font-size: var(--text-elem-size-secondary);
+    }
+}
