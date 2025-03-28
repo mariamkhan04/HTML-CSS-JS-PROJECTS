@@ -22,14 +22,15 @@ body{
 
 .headings{
     margin: 2rem;
+    text-align: center;
 }
 
 #greet-btn{
     background-color: var(--bg-btn-color);
     font-size: var(--text-element-size);
     color: #feffff;
-    padding: 1rem;
-    border-radius: 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
     border: none;
     cursor: pointer;
 }
